@@ -6,7 +6,7 @@ My idea behind creating this app is to learn how to create apps and how to use a
 
 {Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the app running and a walkthrough of the code.}
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/kW-lB_vwgjo)
 
 # Development Environment
 
@@ -21,7 +21,6 @@ Languages and Libraries used:
 * XML
 * Standard Android Libraries
 
-https://developer.android.com/
 
 # Useful Websites
 
