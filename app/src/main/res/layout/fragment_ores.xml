@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    tools:context=".Ores">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="300dp"
+        android:fontFamily="@font/satisfontory"
+        android:text="@string/hello_ores"
+        android:textColor="@color/white"
+        android:textSize="40sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:orientation="vertical"
+        android:layout_marginTop="100dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imageButtonStone"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_gravity="center"
+                android:background="#00FFFFFF"
+                android:backgroundTint="#00FFFFFF"
+                android:contentDescription="@string/limestone_ore"
+                android:scaleType="centerCrop"
+                android:src="@drawable/stone_256" />
+
+            <ImageButton
+                android:id="@+id/imageButtonIronOre"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/fab_margin"
+                android:background="#00FFFFFF"
+                android:backgroundTint="#00FFFFFF"
+                android:contentDescription="@string/iron_ore"
+                android:scaleType="centerCrop"
+                android:src="@drawable/icondesc_iron_new_256" />
+
+            <ImageButton
+                android:id="@+id/imageButtonCopperOre"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_gravity="center"
+                android:background="#00FFFFFF"
+                android:backgroundTint="#00FFFFFF"
+                android:contentDescription="@string/iron_ore"
+                android:scaleType="centerCrop"
+                android:src="@drawable/icondesc_copper_new_256" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imageButtonCateriumOre"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_gravity="center"
+                android:background="#00FFFFFF"
+                android:backgroundTint="#00FFFFFF"
+                android:contentDescription="@string/iron_ore"
+                android:scaleType="centerCrop"
+                android:src="@drawable/icondesc_cateriumore_256" />
+
+            <ImageButton
+                android:id="@+id/imageButtonCoal"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/fab_margin"
+                android:background="#00FFFFFF"
+                android:backgroundTint="#00FFFFFF"
+                android:contentDescription="@string/iron_ore"
+                android:scaleType="centerCrop"
+                android:src="@drawable/icondesc_coalore_256" />
+
+            <ImageButton
+                android:id="@+id/imageButtonRawQuartz"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_gravity="center"
+                android:background="#00FFFFFF"
+                android:backgroundTint="#00FFFFFF"
+                android:contentDescription="@string/iron_ore"
+                android:scaleType="centerCrop"
+                android:src="@drawable/icondesc_quartzcrystal_256" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imageButtonSulfur"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_gravity="center"
+                android:background="#00FFFFFF"
+                android:backgroundTint="#00FFFFFF"
+                android:contentDescription="@string/iron_ore"
+                android:scaleType="centerCrop"
+                android:src="@drawable/sulfur_256" />
+
+            <ImageButton
+                android:id="@+id/imageButtonBauxite"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/fab_margin"
+                android:background="#00FFFFFF"
+                android:backgroundTint="#00FFFFFF"
+                android:contentDescription="@string/iron_ore"
+                android:scaleType="centerCrop"
+                android:src="@drawable/icondesc_bauxite_256" />
+
+            <ImageButton
+                android:id="@+id/imageButtonUranium"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_gravity="center"
+                android:background="#00FFFFFF"
+                android:backgroundTint="#00FFFFFF"
+                android:contentDescription="@string/iron_ore"
+                android:scaleType="centerCrop"
+                android:src="@drawable/icondesc_uraniumore_256" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

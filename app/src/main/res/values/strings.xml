@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Satisfactory Tool</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="ore_fragment_label">Ore Fragment</string>
+    <string name="ores">Ores</string>
+    <string name="ingot">Ingots</string>
+    <string name="mineral">Minerals</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Please choose a category:</string>
+    <string name="hello_second_fragment">Choose a mineral:</string>
+    <string name="hello_ores">Ores:</string>
+
+    <string name="hello_ore_fragment">Choose an Ore</string>
+    <string name="limestone_ore">Limestone Ore</string>
+    <string name="iron_ore">Iron Ore</string>
+
+    <string name="unfinished_fragment">Still Under Construction</string>
+    <string name="unfinished_button">Bring me back</string>
+</resources>
